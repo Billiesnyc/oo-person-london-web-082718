@@ -3,7 +3,7 @@ class Person
   attr_reader :name, :happiness_points, :hygiene_points
   
   def initialize(name)
-    @name = name  
+    @name = name
     @bank_account = 25
     @happiness = 8
     @hygiene = 8
