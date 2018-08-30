@@ -9,23 +9,7 @@ class Person
     @hygiene = 8
   end
   
-  def happiness
-    if @happiness > 10 
-      @happiness = 10 
-    end
-    if @happiness < 0 
-      @happiness = 10
-    end
-  end
-    
-    def hygiene
-    if @hygiene > 10 
-      @hygiene = 10 
-    end
-    if @hygiene < 0 
-      @hygiene = 10
-    end
-  end
+ 
   
   def clean?
     if @hygiene > 7
