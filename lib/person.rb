@@ -64,6 +64,9 @@ class Person
       @@happiness_points == 10
     end
     if friend.name == "Felix"
-      return ""
+      return "Hi Felix! It's Stella. How are you?"
+    end
+  end
+  
   
 end
