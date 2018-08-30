@@ -21,4 +21,12 @@ class Person
     end
   end
   
+  def happy?
+    if @@happiness_points > 7
+      TRUE
+    else
+      FALSE
+    end
+  end
+  
 end
