@@ -29,4 +29,9 @@ class Person
     end
   end
   
+  def get_paid(salary_amount)
+    @@bank_account += salary_amount
+    return "all about the benjamins"
+  end
+  
 end
