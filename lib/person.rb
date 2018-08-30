@@ -78,7 +78,15 @@ class Person
       if friend.@@happiness_points < 0 
       friend.@@happiness_points == 0
       end
-      return ""
+      return "blah blah partisan blah lobbyist"
     elsif topic =="weather"
-  
+    self.@@happiness_points -= 3
+      if self.@@happiness_points < 0 
+        self.@@happiness_points == 0
+      end
+      friend.@@happiness_points -= 3
+      if friend.@@happiness_points < 0 
+      friend.@@happiness_points == 0
+      end
+      return "blah blah partisan blah lobbyist"
 end
