@@ -5,12 +5,12 @@ class Person
   def initialize(name)
     @name = name  
     @bank_account = 25
-    @happiness_points = 8
-    @hygiene_points = 8
+    @happiness = 8
+    @hygiene = 8
   end
   
   def clean?
-    if @@hygiene_points > 7
+    if @hygiene > 7
       TRUE
     else
       FALSE
@@ -18,7 +18,7 @@ class Person
   end
   
   def happy?
-    if @@happiness_points > 7
+    if @happiness > 7
       TRUE
     else
       FALSE
