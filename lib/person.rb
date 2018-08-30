@@ -59,5 +59,9 @@ class Person
     if @@happiness_points > 10 
       @@happiness_points == 10
     end
+    friend.@@happiness_points += 3
+    if @@happiness_points > 10 
+      @@happiness_points == 10
+    end
   
 end
