@@ -60,8 +60,8 @@ class Person
       self.@@happiness_points == 10
     end
     friend.@@happiness_points += 3
-    if @@happiness_points > 10 
-      @@happiness_points == 10
+    if friend.@@happiness_points > 10 
+      friend.@@happiness_points == 10
     end
     if friend.name == "Felix"
       return "Hi Felix! It's Stella. How are you?"
@@ -74,5 +74,11 @@ class Person
       if self.@@happiness_points < 0 
         self.@@happiness_points == 0
       end
+      friend.@@happiness_points -= 3
+      if friend.@@happiness_points < 0 
+      friend.@@happiness_points == 0
+      end
+      return ""
+    elsif topic =="weather"
   
 end
