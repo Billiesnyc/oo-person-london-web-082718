@@ -10,7 +10,8 @@ class Person
   end
   
   def happiness(value)
-    happiness = 
+    @happiness = value
+    if @happiness > 10 
   
   def clean?
     if @hygiene > 7
