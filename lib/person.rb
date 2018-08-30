@@ -36,7 +36,7 @@ class Person
   
   def take_bath
     @@hygiene_points += 4
-    if @@hygiene_points >= 10
+    if @@hygiene_points > 10
       @@hygiene_points == 10 
     end
     return "♪ Rub-a-dub just relaxing in the tub ♫"
