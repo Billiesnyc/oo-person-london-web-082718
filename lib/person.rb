@@ -34,4 +34,7 @@ class Person
     return "all about the benjamins"
   end
   
+  def take_bath
+    if @@hygiene_points
+  
 end
