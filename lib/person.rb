@@ -14,7 +14,11 @@ class Person
   end
   
   def clean?
-    
+    if @@hygiene_points > 7
+      TRUE
+    else
+      FALSE
+    end
   end
   
 end
