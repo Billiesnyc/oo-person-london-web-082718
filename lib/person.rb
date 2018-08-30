@@ -42,6 +42,15 @@ class Person
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
-  
+  def work_out
+    @@happiness_points += 2 
+    if @@happiness_points > 10 
+      @@happiness_points == 10 
+    end
+    @@happiness_points -= 3
+    if @@happiness_points < 0 
+      @@happiness_points == 0
+    end
+    return ""
   
 end
