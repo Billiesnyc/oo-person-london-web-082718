@@ -13,6 +13,10 @@ class Person
     @happiness = value
     if @happiness > 10 
       @happiness = 10 
+    end
+    if @happiness < 0 
+      @happiness = 10
+    end
   
   def clean?
     if @hygiene > 7
