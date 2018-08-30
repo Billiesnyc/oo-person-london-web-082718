@@ -1,5 +1,5 @@
 class Person 
-  
+  attr_accessor :bank_account, :happiness_points, :hygiene_points
   attr_reader :name
   
   @@bank_account = 0
