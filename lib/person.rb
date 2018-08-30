@@ -56,8 +56,8 @@ class Person
   
   def call_friend(friend)
     self.@@happiness_points += 3
-    if @@happiness_points > 10 
-      @@happiness_points == 10
+    if self.@@happiness_points > 10 
+      self.@@happiness_points == 10
     end
     friend.@@happiness_points += 3
     if @@happiness_points > 10 
@@ -69,5 +69,10 @@ class Person
   end
   
   def start_conversation(friend, topic)
+    if topic == "politics"
+        self.@@happiness_points -= 3
+      if self.@@happiness_points < 0 
+        self.@@happiness_points == 0
+      end
   
 end
