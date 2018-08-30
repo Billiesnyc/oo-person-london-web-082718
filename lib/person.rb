@@ -2,12 +2,13 @@ class Person
   attr_accessor :bank_account 
   attr_reader :name, :happiness_points, :hygiene_points
   
-  @bank_account = 25
-  @@happiness_points = 8
-  @@hygiene_points = 8
+
   
   def initialize(name)
-    @name = name
+    @name = name  
+    @bank_account = 25
+  @happiness_points = 8
+  @hygiene_points = 8
   end
   
   def clean?
