@@ -35,6 +35,7 @@ class Person
   end
   
   def take_bath
-    if @@hygiene_points
+    if @@hygiene_points == 10
+      return ""
   
 end
