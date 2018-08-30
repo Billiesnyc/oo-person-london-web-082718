@@ -88,5 +88,7 @@ class Person
       if friend.@@happiness_points < 0 
       friend.@@happiness_points == 0
       end
-      return "blah blah partisan blah lobbyist"
+      return "blah blah sun blah rain"
+    else
+      return ""
 end
