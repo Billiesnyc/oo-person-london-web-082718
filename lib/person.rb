@@ -68,5 +68,6 @@ class Person
     end
   end
   
+  def start_conversation(person, topic)
   
 end
