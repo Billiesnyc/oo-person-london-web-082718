@@ -55,6 +55,9 @@ class Person
   end
   
   def call_friend(friend)
-    
+    self.@@happiness_points += 3
+    if @@happiness_points > 10 
+      @@happiness_points == 10
+    end
   
 end
