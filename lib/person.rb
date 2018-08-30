@@ -51,6 +51,10 @@ class Person
     if @@happiness_points < 0 
       @@happiness_points == 0
     end
-    return ""
+    return "♪ another one bites the dust ♫"
+  end
+  
+  def call_friend(friend)
+    
   
 end
