@@ -9,8 +9,7 @@ class Person
     @hygiene = 8
   end
   
-  def happiness(value)
-    @happiness = value
+  def happiness
     if @happiness > 10 
       @happiness = 10 
     end
@@ -19,8 +18,7 @@ class Person
     end
   end
     
-    def hygiene(value)
-    @hygiene = value
+    def hygiene
     if @hygiene > 10 
       @hygiene = 10 
     end
