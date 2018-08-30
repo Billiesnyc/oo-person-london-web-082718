@@ -63,5 +63,7 @@ class Person
     if @@happiness_points > 10 
       @@happiness_points == 10
     end
+    if friend.name == "Felix"
+      return ""
   
 end
