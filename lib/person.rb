@@ -1,6 +1,6 @@
 class Person 
-  attr_accessor :bank_account, :happiness_points, :hygiene_points
-  attr_reader :name
+  attr_accessor :bank_account 
+  attr_reader :name, :happiness_points, :hygiene_points
   
   @bank_account = 25
   @@happiness_points = 8
